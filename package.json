@@ -1,0 +1,39 @@
+{
+  "name": "dexop-icon-button",
+  "version": "1.0.0",
+  "description": "button with unicode based icon",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w && npm run prettier-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerasimGerasimov/dexop-icon-button.git"
+  },
+  "author": "dialix@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerasimGerasimov/dexop-icon-button/issues"
+  },
+  "homepage": "https://github.com/GerasimGerasimov/dexop-icon-button#readme",
+  "devDependencies": {
+    "@svgr/rollup": "^5.5.0",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.52.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-url": "^3.0.1",
+    "typescript": "^4.3.2"
+  }
+}
