@@ -6,7 +6,7 @@
 
  import './ExampleComponent.css';
  
- export interface Props {
+ export interface IExampleComponentProps {
     /**
      * Simple text prop
      **/
@@ -14,7 +14,7 @@
  }
  
  /** My First component */
- export class ExampleComponent extends React.Component<Props> {
+ export class ExampleComponent extends React.Component<IExampleComponentProps> {
     render() {
        const { text } = this.props;
  
@@ -26,5 +26,3 @@
        );
     }
  }
- 
- export default ExampleComponent;

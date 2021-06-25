@@ -1,4 +1,5 @@
-import { ExampleComponent, Props } from './components/ExampleComponent/ExampleComponent';
+import { ExampleComponent, IExampleComponentProps } from './components/ExampleComponent/ExampleComponent';
 import './export.css';
 
-export { ExampleComponent, Props };
+export { ExampleComponent };
+export type { IExampleComponentProps };
